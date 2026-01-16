@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SuperEstudo – Missão Foco Ativado!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f9ff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #5b9dff, #7ed6ff);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: auto;
+    }
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      text-decoration: none;
+      color: #5b9dff;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #5b9dff;
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #333;
+    }
+    .cta {
+      background: #5b9dff;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 20px;
+    }
+    .cta h2 {
+      color: white;
+    }
+    .cta button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 30px;
+      background: #ffdd59;
+      color: #333;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>SuperEstudo – Missão Foco Ativado!</h1>
+  <p>Um curso divertido e acolhedor para ajudar crianças com TDAH a aprender do seu jeito, com foco, organização e alegria.</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre o Curso</a>
+  <a href="#modulos">Módulos</a>
+  <a href="#beneficios">Benefícios</a>
+  <a href="#inscricao">Inscrição</a>
+</nav>
+
+<section id="sobre">
+  <h2>Sobre o Curso</h2>
+  <p>O <strong>SuperEstudo</strong> foi criado especialmente para crianças com TDAH, usando estratégias visuais, jogos, movimento e rotinas simples. O objetivo é transformar o estudo em uma experiência positiva, respeitando o ritmo e as emoções de cada criança.</p>
+</section>
+
+<section id="modulos">
+  <h2>Módulos do Curso</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🧠 Meu Cérebro é Especial</h3>
+      <p>Entender o TDAH de forma positiva e descobrir seus superpoderes.</p>
+    </div>
+    <div class="card">
+      <h3>🎒 Espaço do SuperEstudo</h3>
+      <p>Organizar o ambiente e os materiais de forma simples e visual.</p>
+    </div>
+    <div class="card">
+      <h3>⏱️ Missões Curtas</h3>
+      <p>Estudar em pequenos blocos de tempo com pausas inteligentes.</p>
+    </div>
+    <div class="card">
+      <h3>🎲 Aprender Brincando</h3>
+      <p>Jogos, desafios e atividades que aumentam o foco.</p>
+    </div>
+    <div class="card">
+      <h3>🎨 Truques de Memória</h3>
+      <p>Usar cores, desenhos, músicas e histórias para memorizar.</p>
+    </div>
+    <div class="card">
+      <h3>💙 Emoções e Confiança</h3>
+      <p>Fortalecer a autoestima e aprender sem medo de errar.</p>
+    </div>
+  </div>
+</section>
+
+<section id="beneficios">
+  <h2>Benefícios</h2>
+  <ul>
+    <li>✔️ Mais foco e menos estresse</li>
+    <li>✔️ Organização simples e eficiente</li>
+    <li>✔️ Estudo divertido e motivador</li>
+    <li>✔️ Aumento da autoestima</li>
+    <li>✔️ Apoio para pais e educadores</li>
+  </ul>
+</section>
+
+<section id="inscricao">
+  <div class="cta">
+    <h2>Pronto para ativar o foco?</h2>
+    <p>Inscreva seu filho no SuperEstudo e transforme o aprendizado em uma aventura.</p>
+    <button>Quero me inscrever</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 - SuperEstudo | Curso para Crianças com TDAH</p>
+</footer>
+
+</body>
+</html>
